@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>커뮤니티 사연 보기</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .nav {
+            display: flex;
+            gap: 10px;
+        }
+        .nav button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+        .filters {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .filters button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .post {
+            width: 48%;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .post .title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .post .actions {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .pagination span {
+            margin: 0 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>모든 사연</h1>
+            <div class="nav">
+                <button>최신순</button>
+                <button>전문답변</button>
+                <button>공감순</button>
+            </div>
+        </div>
+        <div class="filters">
+            <button>일반 고민</button>
+            <button>취업/진로</button>
+            <button>연애</button>
+            <button>상황별</button>
+            <button>결혼/육아</button>
+            <button>대인관계</button>
+            <button>외모</button>
+            <button>가족</button>
+            <button>학업/고시</button>
+            <button>금전/사업</button>
+            <button>생활법률</button>
+            <button>이별/이혼</button>
+            <button>중독/집착</button>
+            <button>투병/사체</button>
+        </div>
+        <div class="content">
+            <div class="post">
+                <div class="title">직장 짤리고 할게 없다 알바만이 살길인데 하기가 싫다 무기력이가 자꾸 찾아와서 거의 온종일 잠만 잔다 우울증으로 약도 몇개월 먹고있지만 호전이 없는것 같...</div>
+                <p>당신의 따뜻한 위로가 필요해요.</p>
+                <div class="actions">
+                    <span>1</span>
+                    <span>당신의 따뜻한 위로가 필요해요.</span>
+                </div>
+            </div>
+            <div class="post">
+                <div class="title">돈이 없으니 폰도 못 바꾸네....... 3년 썼는데 1년 더 써야 되나..</div>
+                <p>돈이 없으니 폰도 못 바꾸네....... 3년 썼는데 1년 더 써야 되나..</p>
+                <div class="actions">
+                    <span>1 리스너댓글</span>
+                </div>
+            </div>
+            <div class="post">
+                <div class="title">죽고싶다고 말해도 막상 죽으려고 하면 겁이 나서 실패하고 뭐든 제대로 할 수가 없어 그냥 사는게 힘들고 내일이 오는게 무서워</div>
+                <p>죽고싶다고 말해도 막상 죽으려고 하면 겁이 나서 실패하고 뭐든 제대로 할 수가 없어 그냥 사는게 힘들고 내일이 오는게 무서워</p>
+                <div class="actions">
+                    <span>2</span>
+                    <span>당신의 따뜻한 위로가 필요해요.</span>
+                </div>
+            </div>
+            <div class="post">
+                <div class="title">여자심리? 관심있고 호감가는 남자 있으면 먼저 카톡이나 디엠으로 연락하면 되는거 아닌가요? 관심있고 호감 있다면서 먼저 연락 해***도 없는 여자들은 무...</div>
+                <p>당신의 진실 어린 공감이 필요해요.</p>
+                <div class="actions">
+                    <span>1</span>
+                    <span>당신의 진실 어린 공감이 필요해요.</span>
+                </div>
+            </div>
+        </div>
+        <div class="pagination">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+            <span>8</span>
+            <span>9</span>
+            <span>10</span>
+        </div>
+    </div>
+</body>
+</html>

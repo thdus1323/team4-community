@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindCafe</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/community.css">
+    <!-- 부트스트랩 cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- 제이쿼리 cdn-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- 폰트어썸 cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+    <!-- 헤더 시작 -->
+    <div class="header_ex">
+        <div class="container">
+            <div class="header">
+                <div class="header_left">
+                    <div class="logo">
+                        <a href="#!">
+                            <img src="./images/main_logo.svg" alt="Main Logo">
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#!">커뮤니티</a></li>
+                            <li><a href="#!">전문가 찾기</a></li>
+                            <li><a href="#!">상담하기</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header_right">
+                    <a href="#!" class="icon"><i class="fas fa-search"></i></a>
+                    <a href="#!" class="icon"><i class="far fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 헤더 끝 -->
+
+
+    <!--커뮤니티 시작-->
+    <div class="comm">
+        <div class="comm-nav">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">모든 사연</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">일반고민</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">취업/진로</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">직장</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">연애</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">대인관계</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">중독/집착</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">금전/사업</a>
+                      </li>
+                    </ul>
+                </div>
+              </div>
+            </nav>
+        </div>
+        <!--필터 시작-->
+        <div class="comm-filter">
+            <button>✨최신순</button>
+            <button>👩‍⚕️전문답변</button>
+            <button>😍공감순</button>
+        </div>
+        <!--필터 끝-->
+        <div class="card my-5 mx-5">
+            <div class="card-body">
+              <h4 class="card-title">사연 제목</h4>
+              <button type="button" class="btn btn-primary btn-sm">일반고민</button>
+              <button type="button" class="btn btn-primary btn-sm">비공개</button>
+              <p class="card-text">Some example text. Some example text.</p>
+              
+              <a href="#" class="card-link">❤</a>
+              <a href="#" class="card-link">reply💌</a>
+            </div>
+          </div>
+        <!--컨텐츠 시작-->
+        <div class="card my-5 mx-5">
+            <div class="card-body">
+              <h4 class="card-title">사연 제목</h4>
+              <button type="button" class="btn btn-primary btn-sm">일반고민</button>
+              <button type="button" class="btn btn-primary btn-sm">비공개</button>
+              <p class="card-text">Some example text. Some example text.</p>
+              
+              <a href="#" class="card-link">❤</a>
+              <a href="#" class="card-link">reply💌</a>
+            </div>
+          </div>
+
+          <div class="card my-5 mx-5">
+            <div class="card-body">
+              <h4 class="card-title">사연 제목</h4>
+              <button type="button" class="btn btn-primary btn-sm">일반고민</button>
+              <button type="button" class="btn btn-primary btn-sm">비공개</button>
+              <p class="card-text">Some example text. Some example text.</p>
+              
+              <a href="#" class="card-link">❤</a>
+              <a href="#" class="card-link">reply💌</a>
+            </div>
+          </div>
+        <!--컨텐츠 끝-->
+
+        <!--페이지네이션 시작-->
+        <div class="comm-pagination">
+            <nav aria-label="...">
+                <ul class="pagination">
+                  <li class="page-item disabled">
+                    <span class="page-link">Previous</span>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item active" aria-current="page">
+                    <span class="page-link">2</span>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+        <!--페이지네이션 끝-->
+
+    </div>
+    <!--커뮤니티 끝-->
+
+
+</body>
+</html>
