@@ -1,0 +1,234 @@
+.expert-answer {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+}
+.expert-answer .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.expert-answer .header img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+.expert-answer .header .info {
+    flex-grow: 1;
+}
+.expert-answer .header .info .name {
+    font-size: 18px;
+    font-weight: bold;
+}
+.expert-answer .header .info .details {
+    font-size: 14px;
+    color: #777;
+}
+.expert-answer .content {
+    margin-top: 20px;
+}
+.expert-answer .content h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.expert-answer .content p {
+    margin-bottom: 10px;
+}
+.expert-answer .tags {
+    margin-top: 20px;
+}
+.expert-answer .tags span {
+    display: inline-block;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+.expert-answer .actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.expert-answer .actions .btn {
+    font-size: 14px;
+}
+.comment-section {
+    margin-top: 40px;
+}
+.comment-section input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 10px;
+    margin-right: 10px;
+}
+.comment-section button {
+    padding: 10px 20px;
+}
+
+.comment-section {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+}
+
+/* <!-- dropdown  --> */
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the gap as needed */
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.dropdown-menu .dropdown-item {
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    text-align: left;
+    width: 100%;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown.active .dropdown-menu {
+    display: block;
+}
+
+/* <!--댓글 제목 글씨 굵게 --> */
+.card-title {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+/* <!--게시판 댓글에 전문가 답변이 걸린 것--> */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.post-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.post-header {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.post-meta {
+    color: #888;
+    font-size: 0.9em;
+    margin-top: 8px;
+}
+
+.post-content {
+    margin-top: 8px;
+}
+
+.post-actions {
+    margin-top: 8px;
+}
+
+.post-actions span {
+    margin-right: 8px;
+}
+
+.expert-reply {
+    margin-top: 16px;
+    padding: 16px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.expert-reply img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+
+.expert-reply .expert-name {
+    font-weight: bold;
+}
+
+.expert-reply .expert-content {
+    margin-top: 8px;
+}
+
+
+/* <!--dropdown 시도 중 2--> */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    min-width: 160px;
+}
+
+.dropdown-item {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+}

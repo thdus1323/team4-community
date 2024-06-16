@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.post-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.post-header {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.post-meta {
+    color: #888;
+    font-size: 0.9em;
+    margin-top: 8px;
+}
+
+.post-content {
+    margin-top: 8px;
+}
+
+.post-actions {
+    margin-top: 8px;
+}
+
+.post-actions span {
+    margin-right: 8px;
+}
+
+.expert-reply {
+    margin-top: 16px;
+    padding: 16px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.expert-reply img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+
+.expert-reply .expert-name {
+    font-weight: bold;
+}
+
+.expert-reply .expert-content {
+    margin-top: 8px;
+}
